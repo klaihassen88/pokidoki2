@@ -97,8 +97,10 @@
 		6F85105C1D380B8B00318907 /* PokiDoki2 */ = {
 			isa = PBXGroup;
 			children = (
+				6F85108D1D380BA300318907 /* Controller */,
+				6F85108C1D380B9D00318907 /* View */,
+				6F85108B1D380B9400318907 /* Model */,
 				6F85105D1D380B8B00318907 /* AppDelegate.swift */,
-				6F85105F1D380B8B00318907 /* ViewController.swift */,
 				6F8510611D380B8B00318907 /* Main.storyboard */,
 				6F8510641D380B8B00318907 /* Assets.xcassets */,
 				6F8510661D380B8B00318907 /* LaunchScreen.storyboard */,
@@ -123,6 +125,28 @@
 				6F85107F1D380B8B00318907 /* Info.plist */,
 			);
 			path = PokiDoki2UITests;
+			sourceTree = "<group>";
+		};
+		6F85108B1D380B9400318907 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6F85108C1D380B9D00318907 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6F85108D1D380BA300318907 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6F85105F1D380B8B00318907 /* ViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
