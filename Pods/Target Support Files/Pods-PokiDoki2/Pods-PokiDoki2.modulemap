@@ -1,0 +1,6 @@
+framework module Pods_PokiDoki2 {
+  umbrella header "Pods-PokiDoki2-umbrella.h"
+
+  export *
+  module * { export * }
+}

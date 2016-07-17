@@ -22,6 +22,9 @@
 		6F85109A1D38226000318907 /* Poke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8510991D38226000318907 /* Poke.swift */; };
 		6F85109D1D3924B800318907 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F85109C1D3924B800318907 /* csv.swift */; };
 		6F85109F1D3949A900318907 /* DetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F85109E1D3949A900318907 /* DetailsScreen.swift */; };
+		7469E3AA264D3FACBBC4DCE9 /* Pods_PokiDoki2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 212E0D95FD29C6212C6218C0 /* Pods_PokiDoki2UITests.framework */; };
+		FED045E7B12ADF37826E9DAF /* Pods_PokiDoki2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83600A5982BD19738A0890C3 /* Pods_PokiDoki2Tests.framework */; };
+		FF16461F2EC95487F384D467 /* Pods_PokiDoki2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 731373BD2A74E3C8533CAEBA /* Pods_PokiDoki2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E10E947883352997DAA0795 /* Pods-PokiDoki2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokiDoki2.release.xcconfig"; path = "Pods/Target Support Files/Pods-PokiDoki2/Pods-PokiDoki2.release.xcconfig"; sourceTree = "<group>"; };
+		212E0D95FD29C6212C6218C0 /* Pods_PokiDoki2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PokiDoki2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2873FA14C5C78B6249E1CC90 /* Pods-PokiDoki2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokiDoki2Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PokiDoki2Tests/Pods-PokiDoki2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5401D88FF3FED32374ED9351 /* Pods-PokiDoki2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokiDoki2Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PokiDoki2Tests/Pods-PokiDoki2Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6F85105A1D380B8B00318907 /* PokiDoki2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokiDoki2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F85105D1D380B8B00318907 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F85105F1D380B8B00318907 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +70,11 @@
 		6F8510991D38226000318907 /* Poke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Poke.swift; sourceTree = "<group>"; };
 		6F85109C1D3924B800318907 /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
 		6F85109E1D3949A900318907 /* DetailsScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsScreen.swift; sourceTree = "<group>"; };
+		731373BD2A74E3C8533CAEBA /* Pods_PokiDoki2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PokiDoki2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83600A5982BD19738A0890C3 /* Pods_PokiDoki2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PokiDoki2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E845A1EF28A979EF57AE3A9 /* Pods-PokiDoki2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokiDoki2UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PokiDoki2UITests/Pods-PokiDoki2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		DDFFBF28F76E6883313372D4 /* Pods-PokiDoki2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokiDoki2UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PokiDoki2UITests/Pods-PokiDoki2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F16BB95AF3E5CF86723CEF2D /* Pods-PokiDoki2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokiDoki2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PokiDoki2/Pods-PokiDoki2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF16461F2EC95487F384D467 /* Pods_PokiDoki2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FED045E7B12ADF37826E9DAF /* Pods_PokiDoki2Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7469E3AA264D3FACBBC4DCE9 /* Pods_PokiDoki2UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +112,8 @@
 				6F8510711D380B8B00318907 /* PokiDoki2Tests */,
 				6F85107C1D380B8B00318907 /* PokiDoki2UITests */,
 				6F85105B1D380B8B00318907 /* Products */,
+				D52A301B32C0590A9C2A8E8C /* Pods */,
+				838ED03F38B5F99F5B5E2020 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -189,6 +206,29 @@
 			name = Util;
 			sourceTree = "<group>";
 		};
+		838ED03F38B5F99F5B5E2020 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				731373BD2A74E3C8533CAEBA /* Pods_PokiDoki2.framework */,
+				83600A5982BD19738A0890C3 /* Pods_PokiDoki2Tests.framework */,
+				212E0D95FD29C6212C6218C0 /* Pods_PokiDoki2UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D52A301B32C0590A9C2A8E8C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F16BB95AF3E5CF86723CEF2D /* Pods-PokiDoki2.debug.xcconfig */,
+				1E10E947883352997DAA0795 /* Pods-PokiDoki2.release.xcconfig */,
+				5401D88FF3FED32374ED9351 /* Pods-PokiDoki2Tests.debug.xcconfig */,
+				2873FA14C5C78B6249E1CC90 /* Pods-PokiDoki2Tests.release.xcconfig */,
+				DDFFBF28F76E6883313372D4 /* Pods-PokiDoki2UITests.debug.xcconfig */,
+				8E845A1EF28A979EF57AE3A9 /* Pods-PokiDoki2UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -196,9 +236,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F8510821D380B8B00318907 /* Build configuration list for PBXNativeTarget "PokiDoki2" */;
 			buildPhases = (
+				E6429F680D071D85682625E7 /* [CP] Check Pods Manifest.lock */,
 				6F8510561D380B8B00318907 /* Sources */,
 				6F8510571D380B8B00318907 /* Frameworks */,
 				6F8510581D380B8B00318907 /* Resources */,
+				08C70D0FE703A2D1EB99AF1E /* [CP] Embed Pods Frameworks */,
+				28BAF1CA21CC58A18D8CA83C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,9 +256,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F8510851D380B8B00318907 /* Build configuration list for PBXNativeTarget "PokiDoki2Tests" */;
 			buildPhases = (
+				74C8BFCB97FB096C0CCC5838 /* [CP] Check Pods Manifest.lock */,
 				6F85106A1D380B8B00318907 /* Sources */,
 				6F85106B1D380B8B00318907 /* Frameworks */,
 				6F85106C1D380B8B00318907 /* Resources */,
+				17ABBAACEB68D8774E01A456 /* [CP] Embed Pods Frameworks */,
+				8E96791CBAC07B6776501909 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,9 +277,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F8510881D380B8B00318907 /* Build configuration list for PBXNativeTarget "PokiDoki2UITests" */;
 			buildPhases = (
+				0EFE8A890C8C2A800124E028 /* [CP] Check Pods Manifest.lock */,
 				6F8510751D380B8B00318907 /* Sources */,
 				6F8510761D380B8B00318907 /* Frameworks */,
 				6F8510771D380B8B00318907 /* Resources */,
+				3E2957EF9A5B95AD7F2BE5BD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -318,6 +366,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08C70D0FE703A2D1EB99AF1E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PokiDoki2/Pods-PokiDoki2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0EFE8A890C8C2A800124E028 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		17ABBAACEB68D8774E01A456 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PokiDoki2Tests/Pods-PokiDoki2Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28BAF1CA21CC58A18D8CA83C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PokiDoki2/Pods-PokiDoki2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E2957EF9A5B95AD7F2BE5BD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PokiDoki2UITests/Pods-PokiDoki2UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74C8BFCB97FB096C0CCC5838 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8E96791CBAC07B6776501909 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PokiDoki2Tests/Pods-PokiDoki2Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6429F680D071D85682625E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6F8510561D380B8B00318907 /* Sources */ = {
@@ -471,6 +642,7 @@
 		};
 		6F8510831D380B8B00318907 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F16BB95AF3E5CF86723CEF2D /* Pods-PokiDoki2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PokiDoki2/Info.plist;
@@ -482,6 +654,7 @@
 		};
 		6F8510841D380B8B00318907 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E10E947883352997DAA0795 /* Pods-PokiDoki2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PokiDoki2/Info.plist;
@@ -493,6 +666,7 @@
 		};
 		6F8510861D380B8B00318907 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5401D88FF3FED32374ED9351 /* Pods-PokiDoki2Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = PokiDoki2Tests/Info.plist;
@@ -505,6 +679,7 @@
 		};
 		6F8510871D380B8B00318907 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2873FA14C5C78B6249E1CC90 /* Pods-PokiDoki2Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = PokiDoki2Tests/Info.plist;
@@ -517,6 +692,7 @@
 		};
 		6F8510891D380B8B00318907 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFFBF28F76E6883313372D4 /* Pods-PokiDoki2UITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = PokiDoki2UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -528,6 +704,7 @@
 		};
 		6F85108A1D380B8B00318907 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E845A1EF28A979EF57AE3A9 /* Pods-PokiDoki2UITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = PokiDoki2UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -556,6 +733,7 @@
 				6F8510841D380B8B00318907 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6F8510851D380B8B00318907 /* Build configuration list for PBXNativeTarget "PokiDoki2Tests" */ = {
 			isa = XCConfigurationList;
@@ -564,6 +742,7 @@
 				6F8510871D380B8B00318907 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6F8510881D380B8B00318907 /* Build configuration list for PBXNativeTarget "PokiDoki2UITests" */ = {
 			isa = XCConfigurationList;
@@ -572,6 +751,7 @@
 				6F85108A1D380B8B00318907 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
